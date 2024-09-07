@@ -1,0 +1,130 @@
+body{
+    margin: ;
+    padding: ;
+    font-family:poppins ;
+    background-color: ;
+    color: ;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column; /* Cambia la dirección para apilar los elementos verticalmente */
+    align-items: center; /* Centra los elementos en el eje vertical */
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #444;
+}
+
+.logo {
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que el margen automático funcione correctamente */
+}
+
+nav, ul, li {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav, ul, li {
+    margin-left: 20px;
+}
+
+nav, ul, li, a {  
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+nav, ul, li, a:hover {
+    color: #ffffff; /* Cambia el color al pasar el ratón */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+#music-player {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#visualizer {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#player-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#play-pause {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#volume {
+    width: 250px;
+    background-color: #000000;
+}
+
+#progress-bar {
+    flex-grow: 1;
+    height: 5px;
+    background-color: #888888;
+    margin-left: 10px;
+    position: relative;
+}
+
+#progress {
+    position: absolute;
+    height: 100%;
+    background-color: #000000;
+    width: 0;
+}
+
+#track-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#playlist {
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#playlist li {
+    background-color: #000000;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#playlist li:hover {
+    background-color: #e0e0e0;
+}
+

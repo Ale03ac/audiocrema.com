@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Audio Cream</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="logo header letras juntas.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/QUIENES SOMOS/index.html">Quienes Somos</a><li>
+                    <li><a href="/CATALOGO/index.html">Catálogo</a></li>
+                    <li><a href="/TIENDA/index.html">Tienda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="music-player">
+            <canvas id="visualizer"></canvas>
+            <div id="player-controls">
+                <button id="play-pause">Play</button>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div id="track-info">
+                <span id="current-track">No track selected</span>
+            </div>
+        </div>
+        <ul id="playlist">
+            <!-- Las pistas se añadirán dinámicamente con JavaScript -->
+        </ul>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
